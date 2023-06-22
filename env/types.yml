@@ -27,6 +27,16 @@ node_types:
         type: string
       dls_api_url:
         type: string
+      image_creation_machine_platform:
+        type: string
+      image_creation_machine_architecture:
+        type: string
+      image_creation_machine_container_engine:
+        type: string
+      image_creation_machine_mpi:
+        type: string
+      image_creation_machine_gpu:
+        type: string
     capabilities:
       exec_env:
         type: eflows4hpc.env.capabilities.ExecutionEnvironment
